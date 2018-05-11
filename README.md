@@ -32,9 +32,9 @@ URL              | Notes
 
 Command                                                     | Notes
 ------------------------------------------------------------|------------------------------------
-`docker-compose up --baseurl'' -d`                          | Spin up site
-`docker-compose exec site jekyll build --baseurl''`         | Rebuild site
-`docker-compose exec site jekyll build --baseurl'' --watch` | Watch for changes
+`docker-compose up -d --baseurl /`                          | Spin up site
+`docker-compose exec site jekyll build --baseurl /`         | Rebuild site
+`docker-compose exec site jekyll build --watch --baseurl /` | Watch for changes
 
 ## Info
 
