@@ -30,12 +30,13 @@ URL              | Notes
 
 ## Commands
 
-Command                                         | Notes
-------------------------------------------------|------------------------------------
-`docker-compose up -d`                          | Spin up site
-`docker-compose exec site jekyll build`         | Rebuild site
-`docker-compose exec site jekyll build --watch` | Watch for changes
+Command                                                     | Notes
+------------------------------------------------------------|------------------------------------
+`docker-compose up --baseurl'' -d`                          | Spin up site
+`docker-compose exec site jekyll build --baseurl''`         | Rebuild site
+`docker-compose exec site jekyll build --baseurl'' --watch` | Watch for changes
 
 ## Info
 
 - [jekyll-docker](https://github.com/envygeeks/jekyll-docker/blob/master/README.md)
+- [jekyll/minima](https://github.com/jekyll/minima)
